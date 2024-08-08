@@ -1,0 +1,162 @@
+/* 版心 */
+.wrapper {
+    margin: 0 auto;
+    width: 1200px;
+}
+
+body {
+    background-color: #fff;
+}
+
+/* 头部区域 */
+.header {
+    height: 40px;
+    background-color: #2b303b;
+}
+
+.header .wrapper {
+    display: flex;
+    padding-top: 10px;
+}
+
+/* logo */
+.header .logo a {
+    display: block;
+    width: 78px;
+    height: 18px;
+    background-image: url(../images/logo.png);
+    font-size: 0;
+}
+
+/* 导航 */
+.header .nav {
+    margin-left: 466px;
+}
+
+.header .nav ul {
+    display: flex;
+}
+
+.header .nav li {
+    color:#fff;
+}
+
+.header .nav li a{
+    margin: 0 8px;
+    color:#fff;
+}
+
+.header .nav li a:hover {
+    color: #8a8a8a;
+}
+
+/* banner 区域 */
+.banner {
+    height: 480px;
+    background-color: #181c28;
+}
+
+.banner .wrapper  {
+    height: 480px;
+    background-image: url(../images/banner.png);
+}
+
+.banner .left {
+    padding: 41px 20px;
+    width: 250px;
+    height: 480px;
+    background-color: #1b2a3f;
+}
+
+.banner .left a{
+    display: block;
+    height: 40px;
+    background: url(../images/right.png) no-repeat right center;
+    line-height: 40px;
+    font-size: 18px;
+    color: #fff;
+}
+
+.banner .left a:hover {
+    background-image: url(../images/right-hover.png);
+    color: #00a4ff;
+}
+
+/* 标题 */
+.title1 {
+    margin-top: 45px;
+    font-size: 24px;
+    font-weight: 400;
+    text-align: center;
+    color: #000;
+}
+
+.title2 {
+    margin-top:25px;
+    font-size: 16px;
+    color: #000;
+    text-align: center;
+    font-weight: 400;
+}
+
+/* 在线课程 */
+.course {
+    display: flex;
+    justify-content: space-between;
+    margin-top: 30px;
+    height: 460px;
+    border: 1px solid #ccc;
+    border-radius: 10px;
+}
+
+.course .left {
+    padding-left: 50px;
+}
+
+.course .title {
+    margin-top: 38px;
+    height: 41px;
+    width: 108px;
+    font-size: 25px;
+    line-height: 41px;
+    font-weight: 400;
+    border-bottom: 1px solid #ccc;
+}
+
+.course .text {
+    margin-top: 19px;
+    width: 442px;
+    font-size: 12px;
+    line-height: 30px;
+    color: #666;
+}
+
+.course .learning {
+    margin-top: 19px;
+    display: block;
+    width: 160px;
+    height: 45px;
+    border: 2px solid #ffa500;
+    font-size: 16px;
+    color: #000;
+    line-height: 44px;
+    text-align: center;
+}
+
+.course .right {
+    margin-top: 40px;
+    margin-right: 50px;
+}
+
+.course .right .pic {
+     width: 580px;
+}
+
+.course .right .pic img{
+    width: 100%;
+    /* height: 100%; */
+    /* object-fit: cover; */
+
+}
+
+
