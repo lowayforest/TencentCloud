@@ -159,4 +159,50 @@ body {
 
 }
 
+.footer {
+    height: 400px;
+    background-color: #2e3033;
+}
+
+.footer .wrapper {
+    display: flex;
+    justify-content: space-between;
+    padding-top: 32px;
+}
+
+.footer .left {
+    display: flex;
+}
+
+.footer .left dt {
+    margin-bottom: 16px;
+    width: 200px;
+    font-size: 14px;
+    color: #eee;
+}
+
+.footer .left dd a {
+    margin-bottom: 8px;
+    font-size: 12px;
+    color: #ccc;
+}
+
+.footer .right p {
+    line-height: 20px;
+    font-size: 12px;
+    color: #ccc;
+}
+
+.footer .right a {
+    display: block;
+    margin-top: 18px;
+    height: 36px;
+    font-size: 12px;
+    line-height: 36px;
+    color: #fff;
+    background-color: #00a4ff;
+    text-align: center;
+}
+
+
 
